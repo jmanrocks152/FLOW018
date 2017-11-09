@@ -11,7 +11,7 @@ class Main
 	        inputNumber = scanner.nextInt();
 	        inputNumberCopy = inputNumber;
 	        for(int x = 0; x < inputNumber; x++)
-	            inputNumberFactorial = inputNumberCopy * inputNumberCopy--;
+	            inputNumberFactorial = inputNumberCopy * --inputNumberCopy;
 	    }
 	    
 	    System,out.println(inputNumberFactorial);
